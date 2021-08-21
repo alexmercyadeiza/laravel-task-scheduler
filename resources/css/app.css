@@ -1,0 +1,6 @@
+/* ./resources/css/app.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;300;400;500;700&display=swap');
