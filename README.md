@@ -9,3 +9,10 @@ A simple yet intuitive task scheduler for micro-task scheduling.
 
 ## stack
 Laravel / Livewire / Tailwind CSS
+
+## setup
+1. cd into project folder
+2. composer install
+3. touch database/database.sqlite
+4. php artisan migrate
+5. php artisan serve
