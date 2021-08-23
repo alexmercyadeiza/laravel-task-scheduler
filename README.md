@@ -2,10 +2,10 @@
 
 A simple yet intuitive task scheduler for micro-task scheduling.
 
-## Future features:
+## future-features:
 1. Slack task notifications
 2. Weekly task digests
 3. Task groups
 
-## Stack
+## stack
 Laravel / Livewire / Tailwind CSS
