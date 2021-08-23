@@ -45,8 +45,8 @@ class TaskScheduler extends Component
     public function render()
     {
         return view('livewire.task-scheduler', [
-            'complete_tasks' => Task::where('status', 1)->orderBy('when', 'desc')->get(),
-            'incomplete_tasks' => Task::where('status', 0)->orderBy('when', 'desc')->get(),
+            'complete_tasks' => Task::where('status', 1)->orderBy('when', 'asc')->get(),
+            'incomplete_tasks' => Task::where('status', 0)->orderBy('when', 'asc')->get(),
         ])->layout('layouts.base');
     }
 }

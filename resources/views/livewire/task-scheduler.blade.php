@@ -45,7 +45,7 @@
                                     </svg>
                                 </span>
                             </div>
-                            <input type="date" wire:model="when"
+                            <input type="datetime-local" wire:model="when"
                                 class="focus:ring-indigo-500 @error('when') border-red-500 @enderror focus:border-indigo-500 block w-full pl-12 pr-2 sm:text-sm border-gray-300 rounded-md">
                         </div>
 

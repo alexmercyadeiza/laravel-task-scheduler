@@ -15,6 +15,6 @@ class Task extends Model
     protected $guarded = [];
 
     public function getWhenAttribute($value) {
-        return Carbon::parse($value)->toFormattedDateString();
+        return Carbon::parse($value)->isoFormat('lll');
     }
 }
