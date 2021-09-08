@@ -1,3 +1,7 @@
+<img src="https://ik.imagekit.io/et8vxrzxxdj/Screenshot_2021-09-08_at_12.09.22_PM_U53ZlrZpB.png" width="50%">
+
+
+
 ## laravel-task-scheduler
 
 A simple yet intuitive task scheduler for micro-task scheduling.
